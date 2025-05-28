@@ -51,7 +51,7 @@ const ExperienceCard = ({ experience }) => {
       {/* Projects */}
       {experience.projects && experience.projects.length > 0 && (
         <div className="mt-5">
-          <h4 className="text-sm text-white font-semibold mb-2">Projects:</h4>
+          <h4 className="text-sm text-white font-semibold mb-2">Accomplishments:</h4>
           <ul className="list-disc ml-5 space-y-1">
             {experience.projects.map((project, i) => (
               <li

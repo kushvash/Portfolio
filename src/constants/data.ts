@@ -32,7 +32,7 @@ export const myProjects = [
     desc: "A full-stack productivity tool with real-time team updates, task tracking, and video calling.",
     subdesc: "Built using Next.js, Firebase, WebSockets, and WebRTC with responsive UI in TailwindCSS.",
     href: "https://workly-jd19bgnav-kushs-projects-5888f2a6.vercel.app/",
-    source: "", // No source repo link provided
+    source: "https://github.com/kushvash/workly/",
     logo: "projects/ThreeRun_Main_Screen.png",
     logoStyle: {
       backgroundColor: "#b18eff",
@@ -115,8 +115,8 @@ export const myProjects = [
     title: "Image Classifier - Transfer Learning",
     desc: "An image classification model using ResNet50, EfficientNetB0, and VGG16 to classify six scene types.",
     subdesc: "Trained with data augmentation, regularization, and fine-tuned architectures to optimize performance on small datasets.",
-    href: "https://a-coderr.github.io/karate-galaxy/",
-    source: "https://github.com/A-coderr/Karate_HTML_CSS",
+    href: "https://github.com/kushvash/Image-Classifier---Transfer-Learning/blob/main/vashisth_kush_project.ipynb",
+    source: "https://github.com/kushvash/Image-Classifier---Transfer-Learning/blob/main/vashisth_kush_project.ipynb",
     logo: "projects/KarateGalaxy_Main.png",
     logoStyle: {
       backgroundColor: "#A0F0BC",
@@ -198,8 +198,208 @@ export const myProjects = [
 ];
 
 export const workExperiences = [
+  // {
+  //   id: 1,
+  //   company: "Centre for Virtual Reality Innovation - VARLab",
+  //   position: "DLS Software Developer",
+  //   duration: "August 2022 - current",
+  //   icon: "varlab_logo.png",
+  //   technologies: [
+  //     "JavaScript",
+  //     "Python",
+  //     "C#",
+  //     "React",
+  //     "TypeScript",
+  //     "Node.js",
+  //     "Express.js",
+  //     "REST APIs",
+  //     "MongoDB",
+  //     "Unity",
+  //     "Azure",
+  //     "HTML5",
+  //     "CSS3",
+  //     "TailwindCSS",
+  //     "Redux",
+  //     "Three.js",
+  //     "Vitest",
+  //     "Jest",
+  //     "Vite",
+  //     "CI/CD",
+  //     "Docker",
+  //     "Jenkins",
+  //     "Figma",
+  //   ],
+  //   projects: [
+  //     {
+  //       name: "CVRI Asset Storage",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Dynamic Content Editor",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Supply Chain DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "CCSIF Trucking DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Reacteroids Onboarding",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "vConestoga Platform",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Trucking Inspection DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Motive Power DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 2,
+  //   company: "Centre for Virtual Reality Innovation - VARLab",
+  //   position: "AR/VR Software Developer (Co-op & Part-Time)",
+  //   duration: "January 2021 - December 2021",
+  //   icon: "varlab_logo.png",
+  //   technologies: [
+  //     "C#",
+  //     "Unity",
+  //     "Jira",
+  //     "Confluence",
+  //     "BitBucket",
+  //     "Agile",
+  //     "Scrum",
+  //     "3D",
+  //     "Git",
+  //     "Figma",
+  //   ],
+  //   projects: [
+  //     {
+  //       name: "Motive Power DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "ACES DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Machine Shop DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Bloom DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //   ],
+  // },
   {
     id: 1,
+    company: "University of Southern California",
+    position: "Teaching Assistant – Advanced Mobile Devices & Games",
+    duration: "January 2025 - Present",
+    icon: "viterbi_logo.png",
+    technologies: [
+      "Unity", "C#", "Git", "Rubric Design", "Grading Automation", "Game Design"
+    ],
+    projects: [
+      {
+        // "name": "Course Instruction",
+        "name": "Delivered technical lectures on advanced mobile and console game development topics, covering architecture, input systems, and performance optimization."
+      },
+      {
+        // "name": "Rubric Development",
+        "name": "Created structured grading rubrics for multi-phase game projects (Alpha, Beta, Gold), ensuring consistent and fair evaluation."
+      },
+      {
+        // "name": "Project Evaluation",
+        "name": "Reviewed and assessed student project builds for code quality, feature completeness, and gameplay functionality."
+      },
+      {
+        // "name": "Student Support",
+        "name": "Conducted regular progress checks and provided detailed technical feedback to help students improve development practices."
+      }
+    ]
+  },
+  {
+    id: 2,
+    company: "University of Southern California",
+    position: "Graduate Research Assistant – Soft Robotics",
+    duration: "September 2024 - Present",
+    icon: "viterbi_logo.png",
+    technologies: [
+      "Python", "Computer Vision", "Depth Cameras", "Physics Simulation", "Data Analysis"
+    ],
+    projects: [
+      {
+        // "name": "Hybrid Modeling",
+        "name": "Integrated physics-based simulations with machine learning models to enhance robotic motion precision and adaptability."
+      },
+      {
+        // "name": "Vision System",
+        "name": "Designed a depth camera-based motion tracking system to collect accurate movement data for robotic control and training."
+      },
+      {
+        // "name": "Model Training",
+        "name": "Used collected kinematic data to train predictive control models, improving real-time robotic responsiveness."
+      },
+      {
+        // "name": "Validation Pipeline",
+        "name": "Implemented a cross-validation framework comparing simulation outputs with physical tests to ensure model reliability."
+      }
+    ],
+
+  },
+  {
+    id: 3,
+    company: "MBA & Beyond",
+    position: "Software Engineer Intern",
+    duration: "February 2022 - June 2022",
+    icon: "mba&b_logo.png",
+    technologies: [
+      "JavaScript", "Sails.js", "Node.js", "Squarespace", "Analytics", "UI/UX", "Web Design"
+    ],
+    projects: [
+      {
+        // "name": "Platform Development",
+        "name": "Built and deployed a Sails.js-based web application to streamline B-school applicant-consultant workflows and reduce manual effort."
+      },
+      {
+        // "name": "Website Revamp",
+        "name": "Redesigned and maintained the company website using Squarespace to improve user experience and navigation."
+      },
+      {
+        // "name": "Analytics Integration",
+        "name": "Integrated user tracking and analytics tools to generate data-driven insights and support performance optimization."
+      },
+      {
+        // "name": "Collaboration with Analysts",
+        "name": "Worked with the analytics team to implement A/B testing and monitor conversion metrics for continuous UX improvement."
+      }
+    ]
+  },
+  {
+    id: 4,
     company: "Centre for Virtual Reality Innovation - VARLab",
     position: "DLS Software Developer",
     duration: "August 2022 - current",
@@ -267,73 +467,6 @@ export const workExperiences = [
       },
       {
         name: "Motive Power DLX",
-        description: "",
-        link: "",
-      },
-    ],
-  },
-  {
-    id: 2,
-    company: "Centre for Virtual Reality Innovation - VARLab",
-    position: "AR/VR Software Developer (Co-op & Part-Time)",
-    duration: "January 2021 - December 2021",
-    icon: "varlab_logo.png",
-    technologies: [
-      "C#",
-      "Unity",
-      "Jira",
-      "Confluence",
-      "BitBucket",
-      "Agile",
-      "Scrum",
-      "3D",
-      "Git",
-      "Figma",
-    ],
-    projects: [
-      {
-        name: "Motive Power DLX",
-        description: "",
-        link: "",
-      },
-      {
-        name: "ACES DLX",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Machine Shop DLX",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Bloom DLX",
-        description: "",
-        link: "",
-      },
-    ],
-  },
-  {
-    id: 3,
-    company: "Conestoga College",
-    position: "Mobile Application Developer (Co-op)",
-    duration: "June 2020 - December 2020",
-    icon: "conestoga_logo.png",
-    technologies: [
-      "Java",
-      "Swift",
-      "Python",
-      "Figma",
-      "Firebase",
-      "AR",
-      "Agile",
-      "Scrum",
-      "Git",
-      "GitHub",
-    ],
-    projects: [
-      {
-        name: "AR Mask Sizing Assistant",
         description: "",
         link: "",
       },
