@@ -1,0 +1,391 @@
+export const navLinks = [
+  {
+    id: 1,
+    name: "Home",
+    href: "#home",
+  },
+  {
+    id: 2,
+    name: "Skills",
+    href: "#skills",
+  },
+  {
+    id: 3,
+    name: "Experience",
+    href: "#experience",
+  },
+  {
+    id: 4,
+    name: "Projects",
+    href: "#projects",
+  },
+  {
+    id: 5,
+    name: "Contact",
+    href: "#contact",
+  },
+];
+
+export const myProjects = [
+  {
+    title: "Workly - Remote Work Productivity Platform",
+    desc: "A full-stack productivity tool with real-time team updates, task tracking, and video calling.",
+    subdesc: "Built using Next.js, Firebase, WebSockets, and WebRTC with responsive UI in TailwindCSS.",
+    href: "https://workly-jd19bgnav-kushs-projects-5888f2a6.vercel.app/",
+    source: "", // No source repo link provided
+    logo: "projects/ThreeRun_Main_Screen.png",
+    logoStyle: {
+      backgroundColor: "#b18eff",
+      background:
+        "linear-gradient(0deg, #B18EFF50, #B18EFF50), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(177, 142, 255, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(177, 142, 255, 0.3)",
+    },
+    tags: [
+      { 
+        id: 1, 
+        name: "Next.js", 
+        path: "icons/nextjs.svg" 
+      },
+      { 
+        id: 2, 
+        name: "Firebase", 
+        path: "icons/firebase.svg" 
+      },
+      { 
+        id: 3, 
+        name: "WebSockets", 
+        path: "icons/websockets.svg" 
+      },
+      { 
+        id: 4, 
+        name: "WebRTC", 
+        path: "icons/webrtc.svg" 
+      },
+      { 
+        id: 5, 
+        name: "TailwindCSS", 
+        path: "icons/tailwindcss-icon.svg" 
+      },
+      { 
+        id: 6, 
+        name: "Node.js", 
+        path: "icons/nodejs.svg" 
+      },
+    ],
+  },
+  {
+    title: "Mirror Mirror - 2D Puzzle Platformer Game",
+    desc: "A 2D co-op puzzle platformer built in Unity with mirrored gravity-based mechanics and synchronized two-player movement.",
+    subdesc: "Features gravity shifts, mirrored world navigation, and intricate level design with data-informed balancing.",
+    href: "https://hardware-man.github.io/MirrorMirrorBuilds/Gold/",
+    source: "", // No source repo link provided
+    logo: "projects/Portfolio_Main.png",
+    logoStyle: {
+      backgroundColor: "#4FC3F7",
+      background:
+        "linear-gradient(0deg, #4FC3F750, #4FC3F750), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(79, 195, 247, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(79, 195, 247, 0.3)",
+    },
+    tags: [
+      { 
+        id: 1, 
+        name: "Unity", 
+        path: "icons/unity.svg" 
+      },
+      { 
+        id: 2, 
+        name: "C#", 
+        path: "icons/csharp.svg" 
+      },
+      { 
+        id: 3, 
+        name: "Game Design", 
+        path: "icons/game-design.svg" 
+      },
+      { 
+        id: 4, 
+        name: "Physics", 
+        path: "icons/physics.svg" 
+      },
+    ],
+  },
+  {
+    title: "Image Classifier - Transfer Learning",
+    desc: "An image classification model using ResNet50, EfficientNetB0, and VGG16 to classify six scene types.",
+    subdesc: "Trained with data augmentation, regularization, and fine-tuned architectures to optimize performance on small datasets.",
+    href: "https://a-coderr.github.io/karate-galaxy/",
+    source: "https://github.com/A-coderr/Karate_HTML_CSS",
+    logo: "projects/KarateGalaxy_Main.png",
+    logoStyle: {
+      backgroundColor: "#A0F0BC",
+      background:
+        "linear-gradient(0deg, #A0F0BC50, #A0F0BC50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(208, 213, 221, 0.85) 100%)",
+      border: "0.2px solid rgba(160, 240, 188, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(135, 234, 174, 0.4)",
+    },
+    tags: [
+      { 
+        id: 1, 
+        name: "Python", 
+        path: "icons/python.svg" 
+      },
+      { 
+        id: 2, 
+        name: "Keras", 
+        path: "icons/keras.svg" 
+      },
+      { 
+        id: 3, 
+        name: "TensorFlow", 
+        path: "icons/tensorflow.svg" 
+      },
+      { 
+        id: 4, 
+        name: "Deep Learning", 
+        path: "icons/deep-learning.svg" 
+      },
+      { 
+        id: 5, 
+        name: "ResNet", 
+        path: "icons/resnet.svg" 
+      },
+    ],
+  },
+  {
+    title: "CampTech - Tech Education Initiative",
+    desc: "A student-led program delivering hands-on workshops in web dev, app dev, ML, and blockchain.",
+    subdesc: "Designed curriculum, managed team logistics, and taught 80+ students across tech domains.",
+    href: "https://skif-website.vercel.app/",
+    source: "https://github.com/A-coderr/skif-website",
+    logo: "projects/skif.png",
+    logoStyle: {
+      backgroundColor: "#FF4C4C",
+      background:
+        "linear-gradient(0deg, #FF4C4C50, #FF4C4C50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 200, 200, 0.85) 100%)",
+      border: "0.2px solid rgba(255, 76, 76, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(183, 28, 28, 0.4)",
+    },
+    tags: [
+      { 
+        id: 1, 
+        name: "Leadership", 
+        path: "icons/leadership.svg" 
+      },
+      { 
+        id: 2, 
+        name: "Team Management", 
+        path: "icons/management.svg" 
+      },
+      { 
+        id: 3, 
+        name: "Curriculum Design", 
+        path: "icons/design.svg" 
+      },
+      { 
+        id: 4, 
+        name: "Public Speaking", 
+        path: "icons/speaking.svg" 
+      },
+      { 
+        id: 5, 
+        name: "Teaching", 
+        path: "icons/teaching.svg" 
+      },
+    ],
+  },
+];
+
+export const workExperiences = [
+  {
+    id: 1,
+    company: "Centre for Virtual Reality Innovation - VARLab",
+    position: "DLS Software Developer",
+    duration: "August 2022 - current",
+    icon: "varlab_logo.png",
+    technologies: [
+      "JavaScript",
+      "Python",
+      "C#",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "MongoDB",
+      "Unity",
+      "Azure",
+      "HTML5",
+      "CSS3",
+      "TailwindCSS",
+      "Redux",
+      "Three.js",
+      "Vitest",
+      "Jest",
+      "Vite",
+      "CI/CD",
+      "Docker",
+      "Jenkins",
+      "Figma",
+    ],
+    projects: [
+      {
+        name: "CVRI Asset Storage",
+        description: "",
+        link: "",
+      },
+      {
+        name: "Dynamic Content Editor",
+        description: "",
+        link: "",
+      },
+      {
+        name: "Supply Chain DLX",
+        description: "",
+        link: "",
+      },
+      {
+        name: "CCSIF Trucking DLX",
+        description: "",
+        link: "",
+      },
+      {
+        name: "Reacteroids Onboarding",
+        description: "",
+        link: "",
+      },
+      {
+        name: "vConestoga Platform",
+        description: "",
+        link: "",
+      },
+      {
+        name: "Trucking Inspection DLX",
+        description: "",
+        link: "",
+      },
+      {
+        name: "Motive Power DLX",
+        description: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 2,
+    company: "Centre for Virtual Reality Innovation - VARLab",
+    position: "AR/VR Software Developer (Co-op & Part-Time)",
+    duration: "January 2021 - December 2021",
+    icon: "varlab_logo.png",
+    technologies: [
+      "C#",
+      "Unity",
+      "Jira",
+      "Confluence",
+      "BitBucket",
+      "Agile",
+      "Scrum",
+      "3D",
+      "Git",
+      "Figma",
+    ],
+    projects: [
+      {
+        name: "Motive Power DLX",
+        description: "",
+        link: "",
+      },
+      {
+        name: "ACES DLX",
+        description: "",
+        link: "",
+      },
+      {
+        name: "Machine Shop DLX",
+        description: "",
+        link: "",
+      },
+      {
+        name: "Bloom DLX",
+        description: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 3,
+    company: "Conestoga College",
+    position: "Mobile Application Developer (Co-op)",
+    duration: "June 2020 - December 2020",
+    icon: "conestoga_logo.png",
+    technologies: [
+      "Java",
+      "Swift",
+      "Python",
+      "Figma",
+      "Firebase",
+      "AR",
+      "Agile",
+      "Scrum",
+      "Git",
+      "GitHub",
+    ],
+    projects: [
+      {
+        name: "AR Mask Sizing Assistant",
+        description: "",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const socialLinks = [
+  { url: "https://www.instagram.com/a_akcio/?hl=en" },
+  { url: "https://github.com/A-coderr" },
+  { url: "https://www.facebook.com/profile.php?id=100011369881132" },
+  { url: "http://www.linkedin.com/in/anzhelika-kostyuk-a2b388194" },
+];
+
+export const skills = [
+  "React",
+  "Three.js",
+  "REST APIs",
+  "JavaScript",
+  "TypeScript",
+  "C#",
+  "Unity",
+  "Python",
+  "Jira",
+  "HTML5",
+  "CSS3",
+  "Node.js",
+  "Express.js",
+  "Git",
+  "MongoDB",
+  "React Three Fiber",
+  "Azure",
+  "Jest",
+  "MySQL",
+  "Scrum",
+  "Agile",
+  "3D",
+  "GitHub",
+  "Confluence",
+  "Redux",
+  "TailwindCSS",
+  "Vitest",
+  "Bitbucket",
+  "Algorithms",
+  "UI/UX",
+  "Vite",
+  "Prettier",
+  "ESLint",
+  "Vercel",
+  "Docker",
+  "Figma",
+  "Framer Motion",
+  "Drei",
+  "Markdown",
+];
