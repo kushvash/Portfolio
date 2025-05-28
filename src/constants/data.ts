@@ -199,80 +199,6 @@ export const myProjects = [
 
 export const workExperiences = [
   // {
-  //   id: 1,
-  //   company: "Centre for Virtual Reality Innovation - VARLab",
-  //   position: "DLS Software Developer",
-  //   duration: "August 2022 - current",
-  //   icon: "varlab_logo.png",
-  //   technologies: [
-  //     "JavaScript",
-  //     "Python",
-  //     "C#",
-  //     "React",
-  //     "TypeScript",
-  //     "Node.js",
-  //     "Express.js",
-  //     "REST APIs",
-  //     "MongoDB",
-  //     "Unity",
-  //     "Azure",
-  //     "HTML5",
-  //     "CSS3",
-  //     "TailwindCSS",
-  //     "Redux",
-  //     "Three.js",
-  //     "Vitest",
-  //     "Jest",
-  //     "Vite",
-  //     "CI/CD",
-  //     "Docker",
-  //     "Jenkins",
-  //     "Figma",
-  //   ],
-  //   projects: [
-  //     {
-  //       name: "CVRI Asset Storage",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Dynamic Content Editor",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Supply Chain DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "CCSIF Trucking DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Reacteroids Onboarding",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "vConestoga Platform",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Trucking Inspection DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Motive Power DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //   ],
-  // },
-  // {
   //   id: 2,
   //   company: "Centre for Virtual Reality Innovation - VARLab",
   //   position: "AR/VR Software Developer (Co-op & Part-Time)",
@@ -316,7 +242,7 @@ export const workExperiences = [
   {
     id: 1,
     company: "University of Southern California",
-    position: "Teaching Assistant – Advanced Mobile Devices & Games",
+    position: "Teaching Assistant",
     duration: "January 2025 - Present",
     icon: "viterbi_logo.png",
     technologies: [
@@ -344,7 +270,7 @@ export const workExperiences = [
   {
     id: 2,
     company: "University of Southern California",
-    position: "Graduate Research Assistant – Soft Robotics",
+    position: "Graduate Research Assistant",
     duration: "September 2024 - Present",
     icon: "viterbi_logo.png",
     technologies: [
@@ -368,16 +294,21 @@ export const workExperiences = [
         "name": "Implemented a cross-validation framework comparing simulation outputs with physical tests to ensure model reliability."
       }
     ],
-
   },
   {
     id: 3,
-    company: "MBA & Beyond",
-    position: "Software Engineer Intern",
-    duration: "February 2022 - June 2022",
-    icon: "mba&b_logo.png",
+    company: "National Institute of Technology Karnataka",
+    position: "Research Intern",
+    duration: "June 2022 - September 2022",
+    icon: "nitk_logo.png",
     technologies: [
-      "JavaScript", "Sails.js", "Node.js", "Squarespace", "Analytics", "UI/UX", "Web Design"
+      "JavaScript", 
+      "Sails.js", 
+      "Node.js", 
+      "Squarespace", 
+      "Analytics", 
+      "UI/UX", 
+      "Web Design"
     ],
     projects: [
       {
@@ -400,6 +331,40 @@ export const workExperiences = [
   },
   {
     id: 4,
+    company: "MBA & Beyond",
+    position: "Software Engineer Intern",
+    duration: "February 2022 - June 2022",
+    icon: "mba&b_logo.png",
+    technologies: [
+      "JavaScript", 
+      "Sails.js", 
+      "Node.js", 
+      "Squarespace", 
+      "Analytics", 
+      "UI/UX", 
+      "Web Design"
+    ],
+    projects: [
+      {
+        // "name": "Platform Development",
+        "name": "Built and deployed a Sails.js-based web application to streamline B-school applicant-consultant workflows and reduce manual effort."
+      },
+      {
+        // "name": "Website Revamp",
+        "name": "Redesigned and maintained the company website using Squarespace to improve user experience and navigation."
+      },
+      {
+        // "name": "Analytics Integration",
+        "name": "Integrated user tracking and analytics tools to generate data-driven insights and support performance optimization."
+      },
+      {
+        // "name": "Collaboration with Analysts",
+        "name": "Worked with the analytics team to implement A/B testing and monitor conversion metrics for continuous UX improvement."
+      }
+    ]
+  },
+  {
+    id: 5,
     company: "Centre for Virtual Reality Innovation - VARLab",
     position: "DLS Software Developer",
     duration: "August 2022 - current",
@@ -482,43 +447,21 @@ export const socialLinks = [
 ];
 
 export const skills = [
-  "React",
-  "Three.js",
-  "REST APIs",
-  "JavaScript",
-  "TypeScript",
-  "C#",
-  "Unity",
-  "Python",
-  "Jira",
-  "HTML5",
-  "CSS3",
-  "Node.js",
-  "Express.js",
-  "Git",
-  "MongoDB",
-  "React Three Fiber",
-  "Azure",
-  "Jest",
-  "MySQL",
-  "Scrum",
-  "Agile",
-  "3D",
-  "GitHub",
-  "Confluence",
-  "Redux",
-  "TailwindCSS",
-  "Vitest",
-  "Bitbucket",
-  "Algorithms",
-  "UI/UX",
-  "Vite",
-  "Prettier",
-  "ESLint",
-  "Vercel",
-  "Docker",
-  "Figma",
-  "Framer Motion",
-  "Drei",
-  "Markdown",
+  "Git", 
+  "HTML/CSS", 
+  "Python", 
+  "Node.js", 
+  "AngularJS", 
+  "React.js", 
+  "Keras", 
+  "Scikit-learn", 
+  "LLM", 
+  "MongoDB", 
+  "SQL", 
+  "C/C++", 
+  "Java", 
+  "Data Science", 
+  "Django", 
+  "AWS",
+  "Linux/Unix",
 ];
