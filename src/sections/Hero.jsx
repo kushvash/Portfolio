@@ -31,7 +31,7 @@ const Hero = () => {
           <h2 className="md:text-5xl sm:text-4xl text-2xl font-medium text-white text-center">
             Hi, I am{" "}
             <LinearGradient gradient={["to left", "#ff9720 ,#fc0865"]}>
-              Anzhelika
+              Kush
             </LinearGradient>
           </h2>
           <h2

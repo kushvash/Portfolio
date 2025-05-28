@@ -63,7 +63,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center text-xs text-neutral-400 mt-6">
-          © {new Date().getFullYear()} Anzhelika Kostyuk. All rights reserved.
+          © {new Date().getFullYear()} Kush Vashisth. All rights reserved.
         </div>
       </div>
     </motion.footer>
