@@ -8,7 +8,6 @@ emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const AUTO_REPLY_TEMPLATE_ID   = import.meta.env.VITE_EMAILJS_TEMPLATE_AUTO_REPLY_ID;
-// const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 const TO_NAME = import.meta.env.VITE_EMAILJS_TO_NAME;
 const TO_EMAIL = import.meta.env.VITE_EMAILJS_TO_EMAIL;
 

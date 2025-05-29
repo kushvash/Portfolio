@@ -153,7 +153,7 @@ export const myProjects = [
     desc: "A student-led program delivering hands-on workshops in web dev, app dev, ML, and blockchain.",
     subdesc: "Designed curriculum, managed team logistics, and taught 80+ students across tech domains.",
     // href: "https://in.linkedin.com/company/camptech-workshops",
-    source: "https://in.linkedin.com/company/camptech-workshops",
+    // source: "https://in.linkedin.com/company/camptech-workshops",
     logo: "projects/camptech.png",
     logoStyle: {
       backgroundColor: "#FF4C4C",
