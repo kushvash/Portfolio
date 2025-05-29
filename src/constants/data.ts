@@ -246,7 +246,7 @@ export const workExperiences = [
     duration: "January 2025 - Present",
     icon: "viterbi_logo.png",
     technologies: [
-      "Unity", "C#", "Git", "Rubric Design", "Grading Automation", "Game Design"
+      "Unity", "C#", "Rubric Design", "Grading", "Game Design"
     ],
     projects: [
       {
@@ -363,79 +363,98 @@ export const workExperiences = [
       }
     ]
   },
+  // {
+  //   id: 5,
+  //   company: "Centre for Virtual Reality Innovation - VARLab",
+  //   position: "DLS Software Developer",
+  //   duration: "August 2022 - current",
+  //   icon: "varlab_logo.png",
+  //   technologies: [
+  //     "JavaScript",
+  //     "Python",
+  //     "C#",
+  //     "React",
+  //     "TypeScript",
+  //     "Node.js",
+  //     "Express.js",
+  //     "REST APIs",
+  //     "MongoDB",
+  //     "Unity",
+  //     "Azure",
+  //     "HTML5",
+  //     "CSS3",
+  //     "TailwindCSS",
+  //     "Redux",
+  //     "Three.js",
+  //     "Vitest",
+  //     "Jest",
+  //     "Vite",
+  //     "CI/CD",
+  //     "Docker",
+  //     "Jenkins",
+  //     "Figma",
+  //   ],
+  //   projects: [
+  //     {
+  //       name: "CVRI Asset Storage",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Dynamic Content Editor",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Supply Chain DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "CCSIF Trucking DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Reacteroids Onboarding",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "vConestoga Platform",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Trucking Inspection DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //     {
+  //       name: "Motive Power DLX",
+  //       description: "",
+  //       link: "",
+  //     },
+  //   ],
+  // },
+];
+
+export const educationHistory = [
   {
-    id: 5,
-    company: "Centre for Virtual Reality Innovation - VARLab",
-    position: "DLS Software Developer",
-    duration: "August 2022 - current",
-    icon: "varlab_logo.png",
-    technologies: [
-      "JavaScript",
-      "Python",
-      "C#",
-      "React",
-      "TypeScript",
-      "Node.js",
-      "Express.js",
-      "REST APIs",
-      "MongoDB",
-      "Unity",
-      "Azure",
-      "HTML5",
-      "CSS3",
-      "TailwindCSS",
-      "Redux",
-      "Three.js",
-      "Vitest",
-      "Jest",
-      "Vite",
-      "CI/CD",
-      "Docker",
-      "Jenkins",
-      "Figma",
-    ],
-    projects: [
-      {
-        name: "CVRI Asset Storage",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Dynamic Content Editor",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Supply Chain DLX",
-        description: "",
-        link: "",
-      },
-      {
-        name: "CCSIF Trucking DLX",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Reacteroids Onboarding",
-        description: "",
-        link: "",
-      },
-      {
-        name: "vConestoga Platform",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Trucking Inspection DLX",
-        description: "",
-        link: "",
-      },
-      {
-        name: "Motive Power DLX",
-        description: "",
-        link: "",
-      },
-    ],
+    institution: 'University of Southern California',
+    degree: 'Master of Science in Computer Science',
+    duration: 'January 2024 – December 2025',
+    icon: 'viterbi_logo.png',
+    courses: ['Analysis of Algorithms', 'Web Technologies', 'Machine Learning', 'Advanced Mobile Devices and Games', 'Deep Learning', 'Information Retrieval and Web Search Engines'],
+    gpa: "3.78/4.0"
+  },
+  {
+    institution: 'Gujarat Technological University',
+    degree: 'Bachelor of Engineering in Computer Science',
+    duration: 'July 2019 – August 2023',
+    icon: 'gtu_logo.png',
+    courses: ['Data Structures', 'Object Oriented Programming', 'Computer Networks', 'Operating System', 'Software Engineering'],
+    gpa: "9.12/10.0",
   },
 ];
 
