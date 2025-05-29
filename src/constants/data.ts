@@ -193,47 +193,6 @@ export const myProjects = [
 ];
 
 export const workExperiences = [
-  // {
-  //   id: 2,
-  //   company: "Centre for Virtual Reality Innovation - VARLab",
-  //   position: "AR/VR Software Developer (Co-op & Part-Time)",
-  //   duration: "January 2021 - December 2021",
-  //   icon: "varlab_logo.png",
-  //   technologies: [
-  //     "C#",
-  //     "Unity",
-  //     "Jira",
-  //     "Confluence",
-  //     "BitBucket",
-  //     "Agile",
-  //     "Scrum",
-  //     "3D",
-  //     "Git",
-  //     "Figma",
-  //   ],
-  //   projects: [
-  //     {
-  //       name: "Motive Power DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "ACES DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Machine Shop DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Bloom DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //   ],
-  // },
   {
     id: 1,
     company: "University of Southern California",
@@ -359,80 +318,6 @@ export const workExperiences = [
       }
     ]
   },
-  // {
-  //   id: 5,
-  //   company: "Centre for Virtual Reality Innovation - VARLab",
-  //   position: "DLS Software Developer",
-  //   duration: "August 2022 - current",
-  //   icon: "varlab_logo.png",
-  //   technologies: [
-  //     "JavaScript",
-  //     "Python",
-  //     "C#",
-  //     "React",
-  //     "TypeScript",
-  //     "Node.js",
-  //     "Express.js",
-  //     "REST APIs",
-  //     "MongoDB",
-  //     "Unity",
-  //     "Azure",
-  //     "HTML5",
-  //     "CSS3",
-  //     "TailwindCSS",
-  //     "Redux",
-  //     "Three.js",
-  //     "Vitest",
-  //     "Jest",
-  //     "Vite",
-  //     "CI/CD",
-  //     "Docker",
-  //     "Jenkins",
-  //     "Figma",
-  //   ],
-  //   projects: [
-  //     {
-  //       name: "CVRI Asset Storage",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Dynamic Content Editor",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Supply Chain DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "CCSIF Trucking DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Reacteroids Onboarding",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "vConestoga Platform",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Trucking Inspection DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //     {
-  //       name: "Motive Power DLX",
-  //       description: "",
-  //       link: "",
-  //     },
-  //   ],
-  // },
 ];
 
 export const educationHistory = [
@@ -455,12 +340,9 @@ export const educationHistory = [
 ];
 
 export const socialLinks = [
-  // { url: "https://www.instagram.com/a_akcio/?hl=en" },
   { url: "https://www.linkedin.com/in/kush-vashisth-52685117a" },
   { url: "https://leetcode.com/u/kushvash/" },
   { url: "https://github.com/kushvash" },
-  // { url: "https://www.facebook.com/profile.php?id=100011369881132" },
-
 ];
 
 export const skills = [

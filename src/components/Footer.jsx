@@ -33,7 +33,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="bg-[#ff9720] text-black px-5 py-2 text-sm font-medium rounded-md hover:bg-[#e6891f] transition-colors"
             >
-              Download Resume
+              Resume
             </a>
           </motion.div>
 
@@ -43,8 +43,6 @@ const Footer = () => {
               "https://www.linkedin.com/in/kush-vashisth-52685117a",
               "https://leetcode.com/u/kushvash",
               "https://github.com/kushvash",
-              // "https://www.instagram.com/a_akcio/?hl=en",
-              // "https://www.facebook.com/profile.php?id=100011369881132",
             ].map((url, index) => (
               <motion.div
                 key={index}

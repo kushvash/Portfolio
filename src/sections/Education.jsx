@@ -1,11 +1,3 @@
-// src/sections/Education.jsx
-// import React from 'react';
-// import { LinearGradient } from 'react-text-gradients';
-// import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-// import 'react-vertical-timeline-component/style.min.css';
-// import { motion } from 'framer-motion';
-// import PropTypes from 'prop-types';
-
 import { LinearGradient } from "react-text-gradients";
 
 import {
@@ -16,8 +8,6 @@ import "react-vertical-timeline-component/style.min.css";
 import { educationHistory } from "../constants/data";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
-
-// Education data array
 
 
 // Card component for a single education entry

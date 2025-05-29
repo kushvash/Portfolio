@@ -32,12 +32,12 @@ const NavItems = () => {
           >
             <a
               href="kush_vashisth.pdf"
-              download
+              // download
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#ff9720] text-black px-5 py-2 text-sm font-medium rounded-md hover:bg-[#e6891f] transition-colors"
             >
-              Download Resume
+              Resume
             </a>
           </motion.div>
       </ul>
