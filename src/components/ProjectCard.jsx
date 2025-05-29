@@ -60,9 +60,10 @@ const ProjectCard = ({ project }) => {
 
           {/* Demo Link */}
           <div className="flex items-center gap-6">
+            {project.source && (
             <motion.a
               className="flex items-center gap-2 cursor-pointer text-white"
-              href={project.href}
+              href={project.source}
               target="_blank"
               rel="noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -71,6 +72,7 @@ const ProjectCard = ({ project }) => {
               <p className="text-xs md:text-base">Demo</p>
               <img src="arrow-up.png" alt="arrow" className="w-3 h-3" />
             </motion.a>
+            )}
           </div>
         </div>
       </div>

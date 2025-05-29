@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://a-coderr.github.io/portfolio-website/sitemap.xml
+Sitemap: https://www.kushvashisth.com/sitemap.xml

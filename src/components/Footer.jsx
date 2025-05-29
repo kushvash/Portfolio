@@ -27,7 +27,7 @@ const Footer = () => {
             transition={{ duration: 0.2, ease: "easeOut" }}
           >
             <a
-              href="resume_anzhelika_kostyuk.pdf"
+              href="kush_vashisth.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
@@ -40,10 +40,11 @@ const Footer = () => {
           {/* Right Section - Social Icons */}
           <div className="flex gap-4 mt-4 sm:mt-0">
             {[
-              "https://github.com/A-coderr",
-              "http://www.linkedin.com/in/anzhelika-kostyuk-a2b388194",
-              "https://www.instagram.com/a_akcio/?hl=en",
-              "https://www.facebook.com/profile.php?id=100011369881132",
+              "https://www.linkedin.com/in/kush-vashisth-52685117a",
+              "https://leetcode.com/u/kushvash",
+              "https://github.com/kushvash",
+              // "https://www.instagram.com/a_akcio/?hl=en",
+              // "https://www.facebook.com/profile.php?id=100011369881132",
             ].map((url, index) => (
               <motion.div
                 key={index}

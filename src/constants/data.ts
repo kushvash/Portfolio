@@ -31,9 +31,9 @@ export const myProjects = [
     title: "Workly - Remote Work Productivity Platform",
     desc: "A full-stack productivity tool with real-time team updates, task tracking, and video calling.",
     subdesc: "Built using Next.js, Firebase, WebSockets, and WebRTC with responsive UI in TailwindCSS.",
-    href: "https://workly-jd19bgnav-kushs-projects-5888f2a6.vercel.app/",
-    source: "https://github.com/kushvash/workly/",
-    logo: "projects/ThreeRun_Main_Screen.png",
+    href: "https://github.com/kushvash/workly/",
+    source: "https://workly-jd19bgnav-kushs-projects-5888f2a6.vercel.app/",
+    logo: "projects/workly.png",
     logoStyle: {
       backgroundColor: "#b18eff",
       background:
@@ -50,17 +50,17 @@ export const myProjects = [
       { 
         id: 2, 
         name: "Firebase", 
-        path: "icons/firebase.svg" 
+        path: "icons/firebase.png" 
       },
       { 
         id: 3, 
         name: "WebSockets", 
-        path: "icons/websockets.svg" 
+        path: "icons/websockets.png" 
       },
       { 
         id: 4, 
         name: "WebRTC", 
-        path: "icons/webrtc.svg" 
+        path: "icons/webrtc.png" 
       },
       { 
         id: 5, 
@@ -70,7 +70,12 @@ export const myProjects = [
       { 
         id: 6, 
         name: "Node.js", 
-        path: "icons/nodejs.svg" 
+        path: "icons/nodejs.png" 
+      },
+      { 
+        id: 7, 
+        name: "Vercel", 
+        path: "icons/vercel.svg" 
       },
     ],
   },
@@ -78,9 +83,9 @@ export const myProjects = [
     title: "Mirror Mirror - 2D Puzzle Platformer Game",
     desc: "A 2D co-op puzzle platformer built in Unity with mirrored gravity-based mechanics and synchronized two-player movement.",
     subdesc: "Features gravity shifts, mirrored world navigation, and intricate level design with data-informed balancing.",
-    href: "https://hardware-man.github.io/MirrorMirrorBuilds/Gold/",
-    source: "", // No source repo link provided
-    logo: "projects/Portfolio_Main.png",
+    href: "https://github.com/kushvash/csci-526--builds",
+    source: "https://hardware-man.github.io/MirrorMirrorBuilds/Gold/",
+    logo: "projects/mirror_mirror.png",
     logoStyle: {
       backgroundColor: "#4FC3F7",
       background:
@@ -97,17 +102,12 @@ export const myProjects = [
       { 
         id: 2, 
         name: "C#", 
-        path: "icons/csharp.svg" 
+        path: "icons/c-sharp.svg" 
       },
       { 
         id: 3, 
         name: "Game Design", 
-        path: "icons/game-design.svg" 
-      },
-      { 
-        id: 4, 
-        name: "Physics", 
-        path: "icons/physics.svg" 
+        path: "icons/game-design.png" 
       },
     ],
   },
@@ -116,8 +116,8 @@ export const myProjects = [
     desc: "An image classification model using ResNet50, EfficientNetB0, and VGG16 to classify six scene types.",
     subdesc: "Trained with data augmentation, regularization, and fine-tuned architectures to optimize performance on small datasets.",
     href: "https://github.com/kushvash/Image-Classifier---Transfer-Learning/blob/main/vashisth_kush_project.ipynb",
-    source: "https://github.com/kushvash/Image-Classifier---Transfer-Learning/blob/main/vashisth_kush_project.ipynb",
-    logo: "projects/KarateGalaxy_Main.png",
+    // source: "https://github.com/kushvash/Image-Classifier---Transfer-Learning/blob/main/vashisth_kush_project.ipynb",
+    logo: "projects/image_classifier.png",
     logoStyle: {
       backgroundColor: "#A0F0BC",
       background:
@@ -134,22 +134,12 @@ export const myProjects = [
       { 
         id: 2, 
         name: "Keras", 
-        path: "icons/keras.svg" 
+        path: "icons/keras.png" 
       },
       { 
         id: 3, 
         name: "TensorFlow", 
-        path: "icons/tensorflow.svg" 
-      },
-      { 
-        id: 4, 
-        name: "Deep Learning", 
-        path: "icons/deep-learning.svg" 
-      },
-      { 
-        id: 5, 
-        name: "ResNet", 
-        path: "icons/resnet.svg" 
+        path: "icons/tensorflow.png" 
       },
     ],
   },
@@ -157,9 +147,9 @@ export const myProjects = [
     title: "CampTech - Tech Education Initiative",
     desc: "A student-led program delivering hands-on workshops in web dev, app dev, ML, and blockchain.",
     subdesc: "Designed curriculum, managed team logistics, and taught 80+ students across tech domains.",
-    href: "https://skif-website.vercel.app/",
-    source: "https://github.com/A-coderr/skif-website",
-    logo: "projects/skif.png",
+    // href: "https://in.linkedin.com/company/camptech-workshops",
+    source: "https://in.linkedin.com/company/camptech-workshops",
+    logo: "projects/camptech.png",
     logoStyle: {
       backgroundColor: "#FF4C4C",
       background:
@@ -171,27 +161,27 @@ export const myProjects = [
       { 
         id: 1, 
         name: "Leadership", 
-        path: "icons/leadership.svg" 
+        path: "icons/leadership.png" 
       },
       { 
         id: 2, 
         name: "Team Management", 
-        path: "icons/management.svg" 
+        path: "icons/management.png" 
       },
       { 
         id: 3, 
         name: "Curriculum Design", 
-        path: "icons/design.svg" 
+        path: "icons/curriculum_design.png" 
       },
       { 
         id: 4, 
         name: "Public Speaking", 
-        path: "icons/speaking.svg" 
+        path: "icons/public_speaking.png" 
       },
       { 
         id: 5, 
         name: "Teaching", 
-        path: "icons/teaching.svg" 
+        path: "icons/teaching.png" 
       },
     ],
   },
@@ -313,19 +303,20 @@ export const workExperiences = [
     projects: [
       {
         // "name": "Platform Development",
-        "name": "Built and deployed a Sails.js-based web application to streamline B-school applicant-consultant workflows and reduce manual effort."
+        
+        "name": "Performed despeckling of Synthetic Aperture Radar (SAR) data using advanced image processing techniques, including Lee, Frost, and Gamma MAP filters, to minimize speckle noise while retaining edge details."
       },
       {
         // "name": "Website Revamp",
-        "name": "Redesigned and maintained the company website using Squarespace to improve user experience and navigation."
+        "name": "Evaluated effectiveness of traditional and deep learning-based despeckling models, comparing PSNR, SSIM, and other image quality metrics to assess feature preservation and noise reduction."
       },
       {
         // "name": "Analytics Integration",
-        "name": "Integrated user tracking and analytics tools to generate data-driven insights and support performance optimization."
+        "name": "Constructed and trained convolutional neural networks (CNNs) and autoencoder architectures on real-world SAR datasets, optimizing hyperparameters to enhance image clarity and downstream object detection accuracy."
       },
       {
         // "name": "Collaboration with Analysts",
-        "name": "Worked with the analytics team to implement A/B testing and monitor conversion metrics for continuous UX improvement."
+        "name": "Implemented data augmentation strategies and advanced preprocessing techniques, such as log-transform and wavelet decomposition, to improve model generalization and robustness across varying SAR conditions."
       }
     ]
   },
@@ -459,10 +450,12 @@ export const educationHistory = [
 ];
 
 export const socialLinks = [
-  { url: "https://www.instagram.com/a_akcio/?hl=en" },
-  { url: "https://github.com/A-coderr" },
-  { url: "https://www.facebook.com/profile.php?id=100011369881132" },
-  { url: "http://www.linkedin.com/in/anzhelika-kostyuk-a2b388194" },
+  // { url: "https://www.instagram.com/a_akcio/?hl=en" },
+  { url: "https://www.linkedin.com/in/kush-vashisth-52685117a" },
+  { url: "https://leetcode.com/u/kushvash/" },
+  { url: "https://github.com/kushvash" },
+  // { url: "https://www.facebook.com/profile.php?id=100011369881132" },
+
 ];
 
 export const skills = [

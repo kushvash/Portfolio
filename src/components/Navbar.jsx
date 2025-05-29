@@ -25,6 +25,21 @@ const NavItems = () => {
             </motion.a>
           </motion.li>
         ))}
+        <motion.div
+            className="flex flex-col sm:flex-row items-center gap-6"
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+          >
+            <a
+              href="kush_vashisth.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#ff9720] text-black px-5 py-2 text-sm font-medium rounded-md hover:bg-[#e6891f] transition-colors"
+            >
+              Download Resume
+            </a>
+          </motion.div>
       </ul>
     </>
   );
