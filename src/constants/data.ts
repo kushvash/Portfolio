@@ -11,16 +11,21 @@ export const navLinks = [
   },
   {
     id: 3,
+    name: "Education",
+    href: "#education",
+  },
+  {
+    id: 4,
     name: "Experience",
     href: "#experience",
   },
   {
-    id: 4,
+    id: 5,
     name: "Projects",
     href: "#projects",
   },
   {
-    id: 5,
+    id: 6,
     name: "Contact",
     href: "#contact",
   },
