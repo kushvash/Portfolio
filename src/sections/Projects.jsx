@@ -71,6 +71,8 @@
 // export default Projects;
 
 
+
+
 // src/sections/Projects.jsx
 import { useState, useEffect } from "react";
 import Carousel from "react-spring-3d-carousel";
@@ -119,12 +121,12 @@ const Projects = () => {
           {/* Left arrow */}
           <button
             onClick={prevSlide}
-            className="absolute top-1/2 left-1/2 -translate-x-[280px] -translate-y-1/2 z-10 focus:outline-none"
+            className="absolute top-1/2 left-1/2 -translate-x-[320px] -translate-y-1/2 z-10 focus:outline-none"
           >
-            <ChevronLeft size={24} strokeWidth={2} className="text-white" />
+            <ChevronLeft size={32} strokeWidth={2} className="text-white" />
           </button>
 
-          {/* Carousel */}
+          {/* Carousel container */}
           <motion.div
             drag="x"
             dragConstraints={{ left: 0, right: 0 }}
@@ -148,9 +150,9 @@ const Projects = () => {
           {/* Right arrow */}
           <button
             onClick={nextSlide}
-            className="absolute top-1/2 right-1/2 translate-x-[280px] -translate-y-1/2 z-10 focus:outline-none"
+            className="absolute top-1/2 right-1/2 translate-x-[320px] -translate-y-1/2 z-10 focus:outline-none"
           >
-            <ChevronRight size={24} strokeWidth={2} className="text-white" />
+            <ChevronRight size={32} strokeWidth={2} className="text-white" />
           </button>
         </div>
       </div>
@@ -159,3 +161,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
