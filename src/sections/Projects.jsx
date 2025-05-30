@@ -71,7 +71,6 @@
 // export default Projects;
 
 
-
 // src/sections/Projects.jsx
 import { useState, useEffect } from "react";
 import Carousel from "react-spring-3d-carousel";
@@ -103,9 +102,9 @@ const Projects = () => {
 
   return (
     <section id="projects" className="w-full flex justify-center mb-20 px-4">
-      <div className="flex flex-col w-full max-w-7xl items-center">
+      <div className="flex flex-col w-full max-w-7xl items-start">
         <motion.h2
-          className="relative z-20 mb-10 xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-black"
+          className="relative z-30 mb-16 xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-black"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
@@ -116,8 +115,8 @@ const Projects = () => {
           </LinearGradient>
         </motion.h2>
 
-        <div className="relative w-full h-[400px] md:h-[500px] flex items-center justify-center mt-12">
-          {/* Left arrow (no circular outline) */}
+        <div className="relative w-full h-[400px] md:h-[500px] flex items-center justify-center mt-20">
+          {/* Left arrow */}
           <button
             onClick={prevSlide}
             className="absolute top-1/2 left-1/2 -translate-x-[280px] -translate-y-1/2 z-10 focus:outline-none"
@@ -125,7 +124,7 @@ const Projects = () => {
             <ChevronLeft size={24} strokeWidth={2} className="text-white" />
           </button>
 
-          {/* Draggable carousel */}
+          {/* Carousel */}
           <motion.div
             drag="x"
             dragConstraints={{ left: 0, right: 0 }}
@@ -146,7 +145,7 @@ const Projects = () => {
             )}
           </motion.div>
 
-          {/* Right arrow (no circular outline) */}
+          {/* Right arrow */}
           <button
             onClick={nextSlide}
             className="absolute top-1/2 right-1/2 translate-x-[280px] -translate-y-1/2 z-10 focus:outline-none"
