@@ -195,8 +195,32 @@ export const myProjects = [
 export const workExperiences = [
   {
     id: 1,
+    company: "Sure Attend",
+    position: "Software Engineer Intern (Part-time)",
+    duration: "February 2025 - Present",
+    icon: "sureattend_logo.png",
+    technologies: [
+      "Django", "Python", "Unit Testing", "Web Design", ""
+    ],
+    projects: [
+      {
+        // "name": "Course Instruction",
+        "name": "Developed backend APIs using Django to automate Zoom, Calendly, and PayPal integrations to automate meeting tracking and rewards."
+      },
+      {
+        // "name": "Rubric Development",
+        "name": "Integrated and deployed an ML model predicting user attendance likelihood using calendar history and behavioral features."
+      },
+      {
+        // "name": "Project Evaluation",
+        "name": "Increased test coverage by 40% with pytest, reducing production bugs and regression cases."
+      },
+    ]
+  },
+  {
+    id: 2,
     company: "University of Southern California",
-    position: "Teaching Assistant",
+    position: "Teaching Assistant (Part-time, Academic Role)",
     duration: "January 2025 - Present",
     icon: "viterbi_logo.png",
     technologies: [
@@ -222,7 +246,7 @@ export const workExperiences = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     company: "University of Southern California",
     position: "Graduate Research Assistant",
     duration: "September 2024 - Present",
@@ -250,7 +274,7 @@ export const workExperiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     company: "MBA & Beyond",
     position: "Software Engineer Intern",
     duration: "February 2022 - June 2022",
