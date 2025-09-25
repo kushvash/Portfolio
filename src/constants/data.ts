@@ -245,36 +245,36 @@ export const workExperiences = [
       }
     ]
   },
+  // {
+  //   id: 3,
+  //   company: "University of Southern California",
+  //   position: "Graduate Research Assistant",
+  //   duration: "September 2024 - Present",
+  //   icon: "viterbi_logo.png",
+  //   technologies: [
+  //     "Python", "Computer Vision", "Depth Cameras", "Physics Simulation", "Data Analysis"
+  //   ],
+  //   projects: [
+  //     {
+  //       // "name": "Hybrid Modeling",
+  //       "name": "Integrated physics-based simulations with machine learning models to enhance robotic motion precision and adaptability."
+  //     },
+  //     {
+  //       // "name": "Vision System",
+  //       "name": "Designed a depth camera-based motion tracking system to collect accurate movement data for robotic control and training."
+  //     },
+  //     {
+  //       // "name": "Model Training",
+  //       "name": "Used collected kinematic data to train predictive control models, improving real-time robotic responsiveness."
+  //     },
+  //     {
+  //       // "name": "Validation Pipeline",
+  //       "name": "Implemented a cross-validation framework comparing simulation outputs with physical tests to ensure model reliability."
+  //     }
+  //   ],
+  // },
   {
     id: 3,
-    company: "University of Southern California",
-    position: "Graduate Research Assistant",
-    duration: "September 2024 - Present",
-    icon: "viterbi_logo.png",
-    technologies: [
-      "Python", "Computer Vision", "Depth Cameras", "Physics Simulation", "Data Analysis"
-    ],
-    projects: [
-      {
-        // "name": "Hybrid Modeling",
-        "name": "Integrated physics-based simulations with machine learning models to enhance robotic motion precision and adaptability."
-      },
-      {
-        // "name": "Vision System",
-        "name": "Designed a depth camera-based motion tracking system to collect accurate movement data for robotic control and training."
-      },
-      {
-        // "name": "Model Training",
-        "name": "Used collected kinematic data to train predictive control models, improving real-time robotic responsiveness."
-      },
-      {
-        // "name": "Validation Pipeline",
-        "name": "Implemented a cross-validation framework comparing simulation outputs with physical tests to ensure model reliability."
-      }
-    ],
-  },
-  {
-    id: 4,
     company: "MBA & Beyond",
     position: "Software Engineer Intern",
     duration: "February 2022 - June 2022",
@@ -307,41 +307,6 @@ export const workExperiences = [
       }
     ]
   },
-  // {
-  //   id: 4,
-  //   company: "National Institute of Technology Karnataka",
-  //   position: "Research Intern",
-  //   duration: "June 2022 - September 2022",
-  //   icon: "nitk_logo.png",
-  //   technologies: [
-  //     "JavaScript", 
-  //     "Sails.js", 
-  //     "Node.js", 
-  //     "Squarespace", 
-  //     "Analytics", 
-  //     "UI/UX", 
-  //     "Web Design"
-  //   ],
-  //   projects: [
-  //     {
-  //       // "name": "Platform Development",
-        
-  //       "name": "Performed despeckling of Synthetic Aperture Radar (SAR) data using advanced image processing techniques, including Lee, Frost, and Gamma MAP filters, to minimize speckle noise while retaining edge details."
-  //     },
-  //     {
-  //       // "name": "Website Revamp",
-  //       "name": "Evaluated effectiveness of traditional and deep learning-based despeckling models, comparing PSNR, SSIM, and other image quality metrics to assess feature preservation and noise reduction."
-  //     },
-  //     {
-  //       // "name": "Analytics Integration",
-  //       "name": "Constructed and trained convolutional neural networks (CNNs) and autoencoder architectures on real-world SAR datasets, optimizing hyperparameters to enhance image clarity and downstream object detection accuracy."
-  //     },
-  //     {
-  //       // "name": "Collaboration with Analysts",
-  //       "name": "Implemented data augmentation strategies and advanced preprocessing techniques, such as log-transform and wavelet decomposition, to improve model generalization and robustness across varying SAR conditions."
-  //     }
-  //   ]
-  // },
 ];
 
 export const educationHistory = [
