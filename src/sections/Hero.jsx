@@ -43,7 +43,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-whit
           </h2>
 
           <p className="max-w-4xl text-center justify-center text-white xl:text-xl md:text-lg sm:text-sm text-md">
-            A Computer Science graduate student at USC, with experience in software development, research in robotics, and technical instruction. My background includes full-stack web development, game mechanics design, and computer vision. I&apos;m looking for software engineering roles where I can apply these skills to build reliable, scalable systems. I want to work where the engineering problems are real and the standards are high.
+            A software developer and Computer Science graduate from University of Southern California. I work across backend systems, AI-driven automation, ML pipelines, distributed workers, and full-stack development. My background includes building agentic workflow engines, real-time applications, NLP systems, and scalable APIs, along with experience in graduate level technical instruction.
           </p>
         </div>
         <motion.div

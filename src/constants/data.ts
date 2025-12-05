@@ -33,6 +33,38 @@ export const navLinks = [
 
 export const myProjects = [
   {
+    title: "Agentic Workflow Orchestrator – Local AI Automation Engine",
+    desc: "A full-stack automation system that turns natural-language instructions into validated, multi-step workflows. Supports asynchronous execution, dependency-aware chaining, and real-time progress through distributed Python workers.",
+    subdesc: "Built with FastAPI, React, Redis, and Python, with LLM-based workflow generation using Gemma2-2B via Ollama and an extensible tool registry.",
+    // href: "https://github.com/kushvash/Image-Classifier---Transfer-Learning/blob/main/vashisth_kush_project.ipynb",
+    // source: "https://github.com/kushvash/Image-Classifier---Transfer-Learning/blob/main/vashisth_kush_project.ipynb",
+    logo: "projects/LLM.png",
+    logoStyle: {
+      backgroundColor: "#A0F0BC",
+      background:
+        "linear-gradient(0deg, #A0F0BC50, #A0F0BC50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(208, 213, 221, 0.85) 100%)",
+      border: "0.2px solid rgba(160, 240, 188, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(135, 234, 174, 0.4)",
+    },
+    tags: [
+      { 
+        id: 1, 
+        name: "FastAPI", 
+        path: "icons/fastapi.svg" 
+      },
+      { 
+        id: 2, 
+        name: "Redis", 
+        path: "icons/redis.png" 
+      },
+      { 
+        id: 3, 
+        name: "Ollama", 
+        path: "icons/olamma.png" 
+      },
+    ],
+  },
+  {
     title: "Workly - Remote Work Productivity Platform",
     desc: "A full-stack productivity tool with real-time team updates, task tracking, and video calling.",
     subdesc: "Built using Next.js, Firebase, WebSockets, and WebRTC with responsive UI in TailwindCSS.",
