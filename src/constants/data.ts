@@ -60,7 +60,7 @@ export const myProjects = [
       { 
         id: 3, 
         name: "Ollama", 
-        path: "icons/olamma.png" 
+        path: "icons/ollama.png" 
       },
     ],
   },
